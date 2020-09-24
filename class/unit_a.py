@@ -28,7 +28,9 @@ if __name__ == '__main__':
     rectangle(2.9, 7.1, True)
 
 
-"""
+'''
+Execution results:
+
 height:   2.9
 width:    7.1
 area:     20.59
@@ -36,4 +38,4 @@ area:     20.59
 height:   1.0
 width:    3.0
 area:     3.0
-"""
+'''

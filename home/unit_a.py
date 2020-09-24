@@ -114,6 +114,7 @@ print(f'{label+separator:<{pad}}{z3}')
 
 '''
 Execution results:
+
 a equals 3 to the power of 2.5:                                            15.588457268119896
 b equals 2 b equals b + 3 (use +=):                                        5
 c equals 12 c = c divided by 4 (use /=):                                   3.0
