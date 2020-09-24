@@ -39,6 +39,9 @@ name2 = entry.replace("o", "x")
 label = 'name with all "o" characters replaced with "x"s'
 print(f'{label + separator:<{pad}}{name2}')
 
+label = 'the original name'
+print(f'{label + separator:<{pad}}{entry}')
+
 '''
 Counting and Finding
 
