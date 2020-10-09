@@ -4,6 +4,7 @@ CIS 41A   Fall 2020
 Unit C in-class assignment
 """
 
+import copy
 
 """
 List script
@@ -40,13 +41,15 @@ list3 printed: ...
 """
 
 list1 = [2, 4.1, "hello"]
-list2 = list1.copy()
-list3 = list1[:]
 
-# Using copy package
-# import copy
+# Alias would look like the below where: id(list2) will be equal to id(list)
+list2 = list1
+
+# Shallow copy - copy only top level items
 # list2 = copy.copy(list1)
-# list3 = copy.deepcopy(list1)
+
+# Deep copy: Copies all elements including nested elements if any
+list3 = copy.deepcopy(list1)
 
 print(f"list1 == list2: {list1 == list2}")
 print(f"list1 == list3: {list1 == list3}")
@@ -74,7 +77,7 @@ Execution results:
 list1 == list2: True
 list1 == list3: True
 list2 == list3: True
-list1 is list2: False
+list1 is list2: True
 list1 is list3: False
 list2 is list3: False
 list1 ID: 4382747328
