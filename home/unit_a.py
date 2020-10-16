@@ -39,7 +39,7 @@ c /= 4
 label = "c equals 12 c = c divided by 4 (use /=)"
 print(f"{label+separator:<{pad}}{c}")
 
-d = 5 % 2
+d = 5 % 3
 label = "d equals the remainder of 5 divided by 3"
 print(f"{label+separator:<{pad}}{d}")
 
@@ -125,7 +125,7 @@ Execution results:
 a equals 3 to the power of 2.5:                                            15.588457268119896
 b equals 2 b equals b + 3 (use +=):                                        5
 c equals 12 c = c divided by 4 (use /=):                                   3.0
-d equals the remainder of 5 divided by 3:                                  1
+d equals the remainder of 5 divided by 3:                                  2
 
 Print the difference between 5 and 7:                                      2
 Print 3.14159 rounded to 4 decimal places:                                 3.14

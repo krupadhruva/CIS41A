@@ -64,7 +64,7 @@ buff = (
     "Medium",
     qty_medium_beads,
     COST_MEDIUM_BEADS,
-    f"{qty_small_beads * COST_MEDIUM_BEADS:.2f}",
+    f"{qty_medium_beads * COST_MEDIUM_BEADS:.2f}",
 )
 print(f"{buff[0]:<10}{buff[1]:>10}{buff[2]:>15}{buff[3]:>15}")
 
@@ -72,7 +72,7 @@ buff = (
     "Large",
     qty_large_beads,
     COST_LARGE_BEADS,
-    f"{qty_small_beads * COST_LARGE_BEADS:.2f}",
+    f"{qty_large_beads * COST_LARGE_BEADS:.2f}",
 )
 print(f"{buff[0]:<10}{buff[1]:>10}{buff[2]:>15}{buff[3]:>15}")
 
@@ -84,7 +84,7 @@ buff = (
 )
 print(f"{buff[0]:<10}{buff[1]:>10}{buff[2]:>15}{buff[3]:>15}")
 
-""" 
+"""
 Execution results:
 how many boxes of small beads: 10
 how many boxes of medium beads: 9
@@ -92,7 +92,7 @@ how many boxes of large beads: 8
 
 SIZE             QTY   COST PER BOX         TOTALS
 Small             10            9.2          92.00
-Medium             9           8.52          85.20
-Large              8           7.98          79.80
+Medium             9           8.52          76.68
+Large              8           7.98          63.84
 TOTAL                                       232.52
 """
