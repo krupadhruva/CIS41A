@@ -7,14 +7,15 @@ Unit G in-class assignment
 from csv import DictReader
 
 """
-Part One – Working with Files
+Part One - Working with Files
 
-Create a new file called ZenOfPython.txt and write the first two lines of the Zen of Python (see The Zen of Python) to the file. Close the file.
+Create a new file called ZenOfPython.txt and write the first two lines of the Zen of Python (see The Zen of Python) to
+the file. Close the file.
 
 Reopen the file and append the 7th and the 17th lines. Then close the file.
 
-Open the file again and read and print the entire contents of the file (there shouldn't be any blank lines between the text). 
-Then close the file.
+Open the file again and read and print the entire contents of the file
+(there shouldn't be any blank lines between the text). Then close the file.
 
 Sample Execution Results:
 
@@ -55,20 +56,27 @@ def zen_of_python():
 
 
 """
-Part Two – CSV Files
+Part Two - CSV Files
 
-For this exercise, you will need to download the file Cities.csv from Canvas and save it into the same directory as your Python script. To do this, login to Canvas, select CIS 41A, select Files, select Cities.csv, select Download, and save into the same directory with your unit G in-class Python script.
+For this exercise, you will need to download the file Cities.csv from Canvas and save it into the same directory as
+your Python script. To do this, login to Canvas, select CIS 41A, select Files, select Cities.csv, select Download,
+and save into the same directory with your unit G in-class Python script.
 
-The file contains a list of cities, their state, and their population. The file starts with a header row of field names, which are City, State, Population.
+The file contains a list of cities, their state, and their population. The file starts with a header row of
+field names, which are City, State, Population.
 
-You will need to save this data (but not the header data) into a dictionary. The dictionary key will be a tuple consisting of the name of the city and the name of the state. The dictionary value will be the population. 
-The reason for this structure is that there are a number of duplicate city names within the file, but no duplicate city/state pairs.
+You will need to save this data (but not the header data) into a dictionary. The dictionary key will be a tuple
+consisting of the name of the city and the name of the state. The dictionary value will be the population. 
+The reason for this structure is that there are a number of duplicate city names within the file, but no duplicate
+city/state pairs.
 
-Hint: When you create your reader object, you should use the DictReader from the csv module. Because the file contains a header row of field names, we don’t have to explicitly define them when creating the reader object. However, you should use these field names instead of numerical indexes when working with the row data.
+Hint: When you create your reader object, you should use the DictReader from the csv module. Because the file
+contains a header row of field names, we don't have to explicitly define them when creating the reader object.
+However, you should use these field names instead of numerical indexes when working with the row data.
 
 After reading the csv file, iterate through the dictionary and print the data.
 
-Then, ask the user for a city and state, then print that city’s population, if it exists. 
+Then, ask the user for a city and state, then print that city's population, if it exists. 
 Test with Dublin, California.
 
 Sample Execution Results:

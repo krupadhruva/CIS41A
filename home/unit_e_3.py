@@ -5,7 +5,7 @@ Unit E take-home assignment
 """
 
 """
-Part One – Looping with String Methods
+Part One - Looping with String Methods
 
 Update the Unit B Counting and Finding In-Class exercise to use a loop.
 
@@ -25,7 +25,7 @@ for idx in range(len(quote)):
 
 
 """
-Part Two – Nested Loops
+Part Two - Nested Loops
 
 Write a script using nested for loops to generate a triangular multiplication table as illustrated below. 
 Ask the user how many rows they would like in their table. 

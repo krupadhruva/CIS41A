@@ -5,7 +5,7 @@ Unit C take-home assignment
 """
 
 """
-Second Script – Bit Operators
+Second Script - Bit Operators
 
 Assign the values 9 and 14 to variables a and b respectively.
 Print the binary values of a and b (use the bin built-in function).

@@ -5,14 +5,14 @@ Unit F in-class assignment
 """
 
 """
-Part One – Using a main function, Docstrings
+Part One - Using a main function, Docstrings
 
 Write a function called hello. The function has no arguments and no return value.
 It simply prints the text "Hello World". Include a docstring that describes the function.
 
 Write a main function, as described by the Python main function reading.
 Call main, as described by the Python main function reading.
-From main, call hello and then print hello’s docstring.
+From main, call hello and then print hello's docstring.
 """
 
 
@@ -23,13 +23,16 @@ def hello():
 
 
 """
-Part Two – Error Handling
+Part Two - Error Handling
 
-Write a function called printListElement. The function has two arguments and no return value. The first argument is a list, and the second argument is a list index. The function will print an element from the list as determined by the list index. If the list index is invalid, print an error message.
+Write a function called printListElement. The function has two arguments and no return value. The first argument is a
+list, and the second argument is a list index. The function will print an element from the list as determined by the
+list index. If the list index is invalid, print an error message.
 
 We could accomplish this with a logic test, but instead, we will manage this with error handling.
 
-Write a try block that attempts to print the list element. Catch any errors with an except block, print an error message.
+Write a try block that attempts to print the list element. Catch any errors with an except block,
+print an error message.
 
 From main, create a myList list with elements 0, 1, 2 by using the list and range commands.
 
@@ -45,19 +48,23 @@ def printListElement(data, index):
 
 
 """
-Part Three – How Python function arguments are treated
+Part Three - How Python function arguments are treated
 
-There can be some confusion as to how Python functions treat their arguments - is it by reference or by value? Explore this for yourself.
+There can be some confusion as to how Python functions treat their arguments - is it by reference or by value?
+Explore this for yourself.
 
 From main, create a myInt variable and give it the value 3. Also create a myList list with elements 0, 1, 2.
 
 Print the IDs of myInt and myList. Also print the ID of the last element of myList.
 
-Now create a function called byVal which has one argument. In the function, add 7 to the argument. Print the ID of the argument before and after the change.
+Now create a function called byVal which has one argument. In the function, add 7 to the argument. Print the ID of the
+argument before and after the change.
 
-Create a second function called byRef which has one argument. In the function, add 7 to the last element in the list. Print the ID of the argument and the ID of the last element of the argument before and after the change.
+Create a second function called byRef which has one argument. In the function, add 7 to the last element in the list.
+Print the ID of the argument and the ID of the last element of the argument before and after the change.
 
-Now call byVal with myInt and then call byRef with myList. Next, again print the IDs of MyInt, myList, and the last element of myList. Finally, print myInt and MyList from main. Can you explain the results?
+Now call byVal with myInt and then call byRef with myList. Next, again print the IDs of MyInt, myList, and the last
+element of myList. Finally, print myInt and MyList from main. Can you explain the results?
 """
 
 

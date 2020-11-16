@@ -12,7 +12,8 @@ small beads with a price of 9.20 dollars per box
 medium beads with a price of 8.52 dollars per box 
 large beads with a price of 7.98 dollars per box 
 
-Ask the user how many boxes of small beads, how many boxes of medium beads, and how many large beads they need (use the int Built-in Function to convert these values to int).
+Ask the user how many boxes of small beads, how many boxes of medium beads, and how many large beads they need
+(use the int Built-in Function to convert these values to int).
 
 Print the invoice in the following format:
 
@@ -21,9 +22,13 @@ Small       n            x.xx       xx.xx
 Medium      n            x.xx       xx.xx
 Large       n            x.xx       xx.xx
 TOTAL                              xxx.xx
-Replace the n and x placeholders with actual numeric data values. Right align all numeric values. All dollar amounts should have two decimal places and should align on the decimal point.
+Replace the n and x placeholders with actual numeric data values. Right align all numeric values. All dollar amounts
+should have two decimal places and should align on the decimal point.
 
-Test your script twice, first with user input of 10 boxes of small beads, 9 boxes of medium beads, and 8 boxes of large beads, and then a second time with user input of 5 boxes of small beads, 10 boxes of medium beads, and 15 boxes of large beads. The second test will have a slight alignment problem, Do not try to fix it now. We will learn more about formatting later.
+Test your script twice, first with user input of 10 boxes of small beads, 9 boxes of medium beads, and 8 boxes of
+large beads, and then a second time with user input of 5 boxes of small beads, 10 boxes of medium beads, and 15 boxes
+of large beads. The second test will have a slight alignment problem, Do not try to fix it now. We will learn more
+about formatting later.
 """
 
 

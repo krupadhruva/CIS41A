@@ -44,7 +44,7 @@ list1[2], list1[1] = list1[1], list1[2]
 print(f"List after swap: {list1}")
 
 """
-Part Three – Tuple Basics
+Part Three - Tuple Basics
 
 For Parts Three, Four and Five, you will be working with data about the movie Casablanca.
 
@@ -60,7 +60,7 @@ title, year, genre = movie
 print(f"My favorite movie is: {title}")
 
 """
-Part Four – Named Tuple
+Part Four - Named Tuple
 
 Define a named tuple called Movie that contains the fields title, year, genre.
 Create a Movie tuple that contains the elements Casablanca, 1942, romantic drama.
@@ -74,7 +74,7 @@ movie = Movie(title="Casablanca", year=1942, genre="romantic drama")
 print(f"My favorite movie is: {movie.title}")
 
 """
-Part Five – Named Tuple Containing a List
+Part Five - Named Tuple Containing a List
 
 Define a named tuple called Moviestars that contains the fields title, year, genre, stars.
 Create a Moviestars tuple called favoritemovie that contains the elements Casablanca, 1942, romantic drama, and a list containing elements Humphrey Bogart, Ingrid Bergman.

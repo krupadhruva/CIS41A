@@ -11,14 +11,23 @@ First Script - Variable-Length Keyword Arguments - kwargs
 
 This exercise develops and extends concepts introduced in the second script of the take-home lab F.
 
-Here, we will be passing a variable number of keyword arguments to a function. You might recognize that the terminology "variable number of keyword arguments" is just another way of describing a dictionary. In fact, this is what we will be doing - passing a dictionary to a function and using certain of the key(word) values - see functions (scroll down to the section called Arbitrary Number of Keyword Parameters).
+Here, we will be passing a variable number of keyword arguments to a function. You might recognize that the
+terminology "variable number of keyword arguments" is just another way of describing a dictionary. In fact, this
+is what we will be doing - passing a dictionary to a function and using certain of the key(word)
+values - see functions (scroll down to the section called Arbitrary Number of Keyword Parameters).
 
-For this exercise, imagine that there is a complex piece of equipment, perhaps a car or a spacecraft, and that all of its various subsystems periodically send out status messages to be read and evaluated by an overseer system. Each message contains just a small amount of data - perhaps only one or two keywords out of the hundreds of things that overseer system must monitor. However, we will restrict ourselves to only three things: temperature, CO2level, and miscError.
+For this exercise, imagine that there is a complex piece of equipment, perhaps a car or a spacecraft, and that all
+of its various subsystems periodically send out status messages to be read and evaluated by an overseer system.
+Each message contains just a small amount of data - perhaps only one or two keywords out of the hundreds of things
+that overseer system must monitor.
+However, we will restrict ourselves to only three things: temperature, CO2level, and miscError.
 
 Write an overseerSystem function that has a kwargs argument.
 
-Within the function, see if the keyword temperature exists in kwargs. If it does, and the temperature is greater than 500, print a warning with the temperature. 
-Also see if the keyword CO2level exists in kwargs. If it does, and the CO2level is greater than .15, print a warning with the CO2level. 
+Within the function, see if the keyword temperature exists in kwargs. If it does, and the temperature is greater than
+500, print a warning with the temperature. 
+Also see if the keyword CO2level exists in kwargs. If it does, and the CO2level is greater than .15, print a warning
+with the CO2level. 
 Lastly, see if the keyword miscError exists in kwargs. If it does, print a warning with the miscError number.
 
 Test from main by creating five messages and calling the overseerSystem function with each message.

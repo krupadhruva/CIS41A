@@ -5,7 +5,7 @@ Unit C take-home assignment
 """
 
 """
-First Script – Working with Lists
+First Script - Working with Lists
 
 All print output should include descriptions as shown in the example output below.
 

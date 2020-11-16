@@ -5,11 +5,15 @@ Unit G take-home assignment
 """
 
 """
-Part One – Reading a data file
+Part One - Reading a data file
 
-For this exercise, you will need to download the file States.txt from Canvas and save it into the same directory as your Python script. To do this, login to Canvas, select CIS 41A, select Files, select States.txt, select Download, and save into the same directory with your unit G take-home Python script.
+For this exercise, you will need to download the file States.txt from Canvas and save it into the same directory as
+your Python script. To do this, login to Canvas, select CIS 41A, select Files, select States.txt, select Download,
+and save into the same directory with your unit G take-home Python script.
 
-The file has 50 lines of data, one for each state in the Unites States. Each line of data contains three pieces of data separated by a space: the two letter abbreviation of the state's name, the region that the state is in, and the 2016 population of the state.
+The file has 50 lines of data, one for each state in the Unites States. Each line of data contains three pieces of
+data separated by a space: the two letter abbreviation of the state's name, the region that the state is in,
+and the 2016 population of the state.
 
 You need to find and print the state with the highest population in the Midwest region.
 
@@ -38,15 +42,22 @@ def build_population_distribution(filter_by_region=()):
 
 
 """
-Part Two – A Dictionary of Lists
+Part Two - A Dictionary of Lists
 
-Download the file USPresidents.txt from from Canvas and save it into the same directory as your Python script. To do this, login to Canvas, select CIS 41A, select Files, select USPresidents.txt, select Download, and save into the same directory with your unit G take-home Python script.
+Download the file USPresidents.txt from from Canvas and save it into the same directory as your Python script.
+To do this, login to Canvas, select CIS 41A, select Files, select USPresidents.txt, select Download, and save
+into the same directory with your unit G take-home Python script.
 
-The file has 44 lines of data, one for each president in the history of the Unites States. Each line of data contains two pieces of data separated by a space: the two letter abbreviation of the name of the state where the president was born, and the name of the president (for your convenience, the president's name has been converted to a single string – George Washington has been converted to George_Washington).
+The file has 44 lines of data, one for each president in the history of the Unites States. Each line of data contains
+two pieces of data separated by a space: the two letter abbreviation of the name of the state where the president
+was born, and the name of the president (for your convenience, the president's name has been converted to a
+single string - George Washington has been converted to George_Washington).
 
-Using the data from the file, you need to build a dictionary of states and the presidents born in those states. Each key will be a state abbreviation and each value will be a list of presidents.
+Using the data from the file, you need to build a dictionary of states and the presidents born in those states.
+Each key will be a state abbreviation and each value will be a list of presidents.
 
-After building the dictionary, determine the state with the most presidents and how many presidents were born there. Print their names.
+After building the dictionary, determine the state with the most presidents and how many presidents were born there.
+Print their names.
 
 Example output:
 
@@ -88,15 +99,18 @@ def build_us_presidents_map():
 
 
 """
-Part Three – Dictionary Keys and Sets
+Part Three - Dictionary Keys and Sets
 
-Build a second dictionary from the USPresidents.txt file described in the previous exercise. Each key will again be a state abbreviation, however, the value will be the count of presidents from that state.
+Build a second dictionary from the USPresidents.txt file described in the previous exercise. Each key will again be
+a state abbreviation, however, the value will be the count of presidents from that state.
 
 Create a set of the ten most populous US states (CA, TX, FL, NY, IL, PA, OH, GA, NC, MI).
 
-Then create a new set that represents a set of populous US states that have had presidents born in them (you should be able to do this with one line of code).
+Then create a new set that represents a set of populous US states that have had presidents born in them (you should
+be able to do this with one line of code).
 
-Print a count of this new set along with an alpha-sorted listing of these states and how many presidents have been born in them.
+Print a count of this new set along with an alpha-sorted listing of these states and how many presidents have been
+born in them.
 
 Example output:
 
