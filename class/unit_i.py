@@ -48,7 +48,9 @@ class Cylinder(Circle):
         super(Cylinder, self).__init__(radius)
 
     def getArea(self):
-        return 2 * (super(Cylinder, self).getArea() + (math.pi * self.radius))
+        return 2 * (
+            super(Cylinder, self).getArea() + (math.pi * self.radius * self.height)
+        )
 
     def getVolume(self):
         return super(Cylinder, self).getArea() * self.height
